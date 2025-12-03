@@ -1,0 +1,43 @@
+{
+  "sqs_url": "sql-url'a",
+  "region": "eu-north-1",
+  "number_of_semaphores": 5,
+  "sensors": [
+    {
+      "device_id": "TMP36_A10293",
+      "type": "temperature",
+      "interval_ms": 30,
+      "location": {
+        "lat": 49.8419,
+        "lon": 24.0315
+      }
+    },
+    {
+      "device_id": "HMD55_B55672",
+      "type": "humidity",
+      "interval_ms": 40,
+      "location": {
+        "lat": 50.4501,
+        "lon": 30.5234
+      }
+    },
+    {
+      "device_id": "PRS900_C99832",
+      "type": "pressure",
+      "interval_ms": 50,
+      "location": {
+        "lat": 48.9215,
+        "lon": 24.7097
+      }
+    },
+    {
+      "device_id": "ERR777_D44123",
+      "type": "error_sensor_type",
+      "interval_ms": 30,
+      "location": {
+        "lat": 46.4825,
+        "lon": 30.7233
+      }
+    }
+  ]
+}
